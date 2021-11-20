@@ -14,7 +14,7 @@ export async function getStaticProps() {
 export default function Home({ allData }) {
   return (
       <Layout home>
-        <h1>List of Team Member Name</h1>
+        <h1>Wordpress CMS</h1>
         <div className="list-group">
           {allData.map(({ id, name }) => (
             <Link key={id} href={`/${id}`}>
